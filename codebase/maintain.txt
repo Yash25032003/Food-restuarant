@@ -1,0 +1,20 @@
+---
+
+## 🗓️ Daily Development Log
+
+### Day 1: NestJS Core Setup & Environment Configuration
+* **Architecture Conceptualization:** 
+  * Understood NestJS Core Architecture: Controllers (Handlers), Services (Business Logic), and Modules (Container/Encapsulation).
+  * Evaluated ESM (ECMAScript Modules) vs CommonJS for modern Node.js development.
+* **Backend Setup:**
+  * Configured `@nestjs/cli` and initialized the `backend` service.
+  * Installed `@nestjs/mongoose`, `mongoose`, and `@nestjs/config` for database operations.
+* **Database Wiring:**
+  * Set up `.env` configuration file for `PORT` and `MONGO_URI`.
+  * Connected MongoDB asynchronously inside `AppModule` using `MongooseModule.forRootAsync`.
+
+  ### Day 1 Log: NestJS & MongoDB Setup
+- [x] Installed NestJS CLI and initialized the `backend` project.
+- [x] Configured `@nestjs/config` for `.env` environment variables management.
+- [x] Integrated `@nestjs/mongoose` with MongoDB Atlas.
+- [x] Verified local server execution on `http://localhost:4000`.
