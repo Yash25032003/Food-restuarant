@@ -18,3 +18,9 @@
 - [x] Configured `@nestjs/config` for `.env` environment variables management.
 - [x] Integrated `@nestjs/mongoose` with MongoDB Atlas.
 - [x] Verified local server execution on `http://localhost:4000`.
+
+### Day 2 Log: Core Schemas & Multi-Vendor Architecture
+- [x] Designed `User` Schema with RBAC support (`ADMIN`, `OWNER`, `CUSTOMER`).
+- [x] Implemented `Restaurant` Schema linked to specific Owners via `ownerId`.
+- [x] Created `Category` and `Product` Schemas with multi-tenant filtering (`restaurantId`).
+- [x] Registered schemas across feature modules using `MongooseModule.forFeature()`.
