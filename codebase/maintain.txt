@@ -24,3 +24,18 @@
 - [x] Implemented `Restaurant` Schema linked to specific Owners via `ownerId`.
 - [x] Created `Category` and `Product` Schemas with multi-tenant filtering (`restaurantId`).
 - [x] Registered schemas across feature modules using `MongooseModule.forFeature()`.
+
+### Day 3 Log: Authentication System & User Management
+- [x] Create DTOs for User Registration (`signup.dto.ts`) and Login.
+- [ ] Implement `AuthController` and `AuthService` for handling login and signup logic.
+- [ ] Set up JWT-based Authentication (Access & Refresh Tokens).
+- [ ] Implement RBAC Guards for Admin, Owner, and Customer roles.
+
+---
+### 📅 Development Roadmap Reference (from README)
+* **Phase 1 (Days 1–7):** Backend Foundation: NestJS Architecture, MongoDB Data Models, Auth System (JWT + Refresh Tokens), and RBAC Guards.
+* **Phase 2 (Days 8–14):** Owner Panel & Core APIs: Category & Product CRUD, Image Uploads, Admin Dashboard UI.
+* **Phase 3 (Days 15–21):** Customer Frontend & Caching: SSR/CSR Menu Page, Cart Management, Redis Caching, Order Placement APIs.
+* **Phase 4 (Days 22–27):** Real-Time & Asynchronous Queues: WebSockets Live Tracking, Sound Alerts, BullMQ Background Email/PDF Workers.
+* **Phase 5 (Days 28–34):** DevOps & Load Balancing: Dockerization, Multi-container Setup, Nginx Load Balancing, Redis Pub/Sub Adapter.
+* **Phase 6 (Days 35–40):** AI Integration & Production Polish: AI Content Generator, Smart Recommendations, DB Indexing, Security Hardening.

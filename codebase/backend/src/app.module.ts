@@ -8,6 +8,7 @@ import { UsersModule } from './users/user.module.js';
 import { RestaurantModule } from './restaurants/restuarant.module.js';
 import { CategoriesModule } from './categories/category.module.js';
 import { ProductsModule } from './products/product.module.js';
+import { AuthModule } from './auth/auth.module.js';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -27,6 +28,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
         RestaurantModule,
         CategoriesModule,
         ProductsModule,
+        AuthModule
     ],
     controllers:[AppController],
     providers:[AppService],
