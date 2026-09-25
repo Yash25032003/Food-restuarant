@@ -5,7 +5,7 @@ import { createObserveModule } from '@nestjs/observe';
 import { AppController } from './app.controller.js';
 import { AppService } from './app.service.js';
 import { UsersModule } from './users/user.module.js';
-import { RestaurantModule } from './restaurants/restuarant.module.js';
+import { RestaurantModule } from './restaurants/restaurant.module.js';
 import { CategoriesModule } from './categories/category.module.js';
 import { ProductsModule } from './products/product.module.js';
 import { AuthModule } from './auth/auth.module.js';

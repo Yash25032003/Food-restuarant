@@ -28,6 +28,15 @@ lerna-debug.log*
 .settings/
 *.sublime-workspace
 
+# Graphify analysis & graph outputs
+graphify-out/
+**/graphify-out/
+*.graphify
+
+# Gitignore files
+.gitignore
+
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json

@@ -8,8 +8,8 @@ export class Restaurant{
     @Prop({ required: true, trim: true })
     name: string;
 
-    @Prop({type:mongoose.Schema.Types.ObjectId , ref:'User' , required:true})
-    ownerid:mongoose.Schema.Types.ObjectId;
+    @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true })
+    ownerId: mongoose.Schema.Types.ObjectId;
 
     @Prop({ required: true, trim: true })
     address: string;
