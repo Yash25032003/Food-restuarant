@@ -10,7 +10,7 @@ export class Category {
 
     // Foreign Key: Multi-tenant filtering
     @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'Restaurant', required: true })
-    restaurantId: mongoose.Schema.Types.ObjectId;
+    restaurantId: mongoose.Types.ObjectId;
 
     @Prop({ default: true })
     isActive: boolean;

@@ -9,7 +9,7 @@ export class Restaurant{
     name: string;
 
     @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true })
-    ownerId: mongoose.Schema.Types.ObjectId;
+    ownerId: mongoose.Types.ObjectId;
 
     @Prop({ required: true, trim: true })
     address: string;
